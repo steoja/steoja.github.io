@@ -4,6 +4,8 @@ title: "Install Docker on Ubuntu"
 date: 2024-07-15 08:00:00 -0500
 categories: Ubuntu Docker
 tags: Ubuntu Docker
+image:
+ path: /assets/img/headers/docker-ubuntu.webp
 ---
 
 # Ubuntu 22.04
