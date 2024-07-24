@@ -10,9 +10,11 @@ image:
 
 # Error encountered when installing SAP Collaboration Window for ByDesign.
 
-Close Collaboration Window
 
-## Enter the following registry keys
+1. Close Collaboration Window
+
+ 
+2. Enter the following registry keys
 
 ```bash
 reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\v4.0.30319" /v SchUseStrongCrypto /t REG_DWORD /d 1 /f
@@ -22,4 +24,4 @@ reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\v4.0.30319" /v SchU
 reg add "HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\.NETFramework\v4.0.30319" /v SchUseStrongCrypto /t REG_DWORD /d 1 /f
 ```
 
-Restart Collaboration Window
+3. Restart Collaboration Window
